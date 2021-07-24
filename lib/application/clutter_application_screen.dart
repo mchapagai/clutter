@@ -1,6 +1,5 @@
 import 'package:clutter/application/application_widget_keys.dart';
 import 'package:clutter/application/demos.dart';
-import 'package:clutter/features/settings/clutter_settings_widget.dart';
 import 'package:clutter/navigation/page_route.dart';
 import 'package:clutter/utils/clutter_icons.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +28,7 @@ class ClutterApplicationScreen extends StatelessWidget {
             padding: EdgeInsets.all(0),
             onTap: () => pushWidgetWithFade(
               context,
-              ClutterSettingsWidget(),
+              Container(),
             ),
           ),
           _screenPositionedWidget(

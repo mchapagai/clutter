@@ -12,7 +12,8 @@
 .metadata
 pubspec.lock
 coverage/
-references/
+lib/features/demo/
+assets/demo_images/
 
 # IntelliJ related
 *.iml

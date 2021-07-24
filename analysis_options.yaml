@@ -1,5 +1,7 @@
 analyzer:
-  exclude: [build/**]
+  exclude:
+    - "build/**"
+    - "lib/references/**"
   strong-mode:
     implicit-casts: true
     implicit-dynamic: true
@@ -7,6 +9,12 @@ analyzer:
     dead_code: info
     invalid_assignment: warning
     missing_return: error
+    # treat required parameters as a warning (not a hint)
+    # missing_required_param: warning
+    # todo: ignore
+    # allow self-reference to deprecated members (we do this because otherwise we have
+    # to annotate every member in every test, assert, etc, when we deprecate something)
+    # deprecated_member_use_from_same_package: ignore
 
 linter:
   rules:
