@@ -27,19 +27,12 @@ dependencies:
     git:
       url: git://github.com/mchapagai/flutter_utils.git
       ref: dev
-  cached_network_image: ^3.1.0
   cupertino_icons: ^1.0.2
-  flutter_lock_screen: ^2.0.1
-  flutter_spinkit: ^5.0.0
   flutter_svg: ^0.22.0
-  font_awesome_flutter: ^9.1.0
   http: ^0.13.3
   intl: ^0.17.0
-  launch_review: ^3.0.1
   rxdart: ^0.27.1
-  share: ^2.0.4
   shared_preferences: ^2.0.6
-  transparent_image: ^2.0.0
   url_launcher: ^6.0.9
 
 dev_dependencies:
@@ -58,7 +51,7 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/demo_images/
+    - assets/images/planets/
     - assets/images/tmdb_icon.png
     - assets/svg/settings.svg
     - assets/clutter_logo.png
