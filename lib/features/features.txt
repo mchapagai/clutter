@@ -1,0 +1,4 @@
+- Firebase login
+- The Movie DB
+- Workout app
+- Flutter UI
